@@ -15,7 +15,6 @@ def print_results():
         preds_dict.pop('toxic', None)
         if any(preds_dict.values()) > 0.1:
             for key, value in preds_dict.items():
-                # st.write("key: ", key, "value: ", value)
                 if value > 0.1:
                     add_str.append("**" + key + "** (" + str(int(value * 100)) + "%)")
         if add_str:
