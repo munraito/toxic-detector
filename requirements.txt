@@ -1,5 +1,5 @@
 joblib==0.16.0
-streamlit==0.73.1
-PIL==7.2.0
 pandas==1.0.5
 altair==4.1.0
+streamlit==0.73.1
+Pillow==8.0.1
