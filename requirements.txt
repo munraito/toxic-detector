@@ -3,3 +3,4 @@ pandas==1.0.5
 altair==4.1.0
 streamlit==0.73.1
 Pillow==8.0.1
+sklearn==0.23.1
