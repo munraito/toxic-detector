@@ -38,7 +38,8 @@ if __name__ == "__main__":
     st.image(Image.open('toxic-website.png'), use_column_width=True)
     st.title('Toxic App :knife: :knife:')
     user_input = st.text_area("Input your comment here (english, please)")
-    print_results()
+    if st.button("Analyze"):
+        print_results()
 
     with st.beta_expander("Want to know more about the data?"):
         st.markdown('Dataset was taken from [Kaggle]'
